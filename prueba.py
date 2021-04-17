@@ -31,7 +31,7 @@ print("El valor de bphi EL QUE IMPORTA es: ",bphi)
 
 if bphi >= 0.000 and bphi  <= 0.070:
     bplo=round(random.uniform(0,bphi - 0.001),3)
-    print(bplo)
+    print("El valor de BpLo es: ", bplo)
     ihi=50
     ilo=0
     k= ihi - ilo
@@ -113,7 +113,7 @@ AQUI COMIENZA EL SEGUNDO
 
 if bphi >= 0.071 and bphi  <= 0.095:
     bplo=round(random.uniform(0.071,bphi - 0.001),3)
-    print(bplo)
+    print("El valor de BpLo es: ", bplo)
     ihi=100
     ilo=51
     k= ihi - ilo
@@ -198,7 +198,7 @@ AQUI COMIENZA EL TERCERO
 
 if bphi >= 0.096 and bphi  <= 0.154:
     bplo=round(random.uniform(0.096,bphi - 0.001),3)
-    print(bplo)
+    print("El valor de BpLo es: ", bplo)
     ihi=150
     ilo=101
     k= ihi - ilo
@@ -286,7 +286,7 @@ AQUI COMIENZA EL CUARTO
 
 if bphi >= 0.155 and bphi  <= 0.204:
     bplo=round(random.uniform(0.155,bphi - 0.001),3)
-    print(bplo)
+    print("El valor de BpLo es: ", bplo)
     ihi=200
     ilo=151
     k= ihi - ilo
@@ -360,13 +360,21 @@ if bphi >= 0.155 and bphi  <= 0.204:
 
 
 
+
+
+
+
+
+
+
+
 """
 AQUI COMIENZA EL ULTIMO
 """
 
 if bphi >= 0.205 and bphi  <= 0.604:
     bplo=round(random.uniform(0.205,bphi - 0.001),3)
-    print(bplo)
+    print("El valor de BpLo es: ", bplo)
     ihi=200
     ilo=151
     k= ihi - ilo
